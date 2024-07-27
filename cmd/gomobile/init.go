@@ -17,7 +17,7 @@ import (
 	"strings"
 	"time"
 
-	"golang.org/x/mobile/internal/sdkpath"
+	"github.com/baizon/mobile/internal/sdkpath"
 )
 
 var (

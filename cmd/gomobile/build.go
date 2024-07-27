@@ -17,7 +17,7 @@ import (
 	"strconv"
 	"strings"
 
-	"golang.org/x/mobile/internal/sdkpath"
+	"github.com/baizon/mobile/internal/sdkpath"
 	"golang.org/x/tools/go/packages"
 )
 

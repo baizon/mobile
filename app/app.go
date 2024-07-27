@@ -10,7 +10,7 @@ import (
 	"golang.org/x/mobile/event/lifecycle"
 	"golang.org/x/mobile/event/size"
 	"golang.org/x/mobile/gl"
-	_ "golang.org/x/mobile/internal/mobileinit"
+	_ "github.com/baizon/mobile/internal/mobileinit"
 )
 
 // Main is called by the main.main function to run the mobile application.

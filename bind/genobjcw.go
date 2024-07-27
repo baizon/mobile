@@ -8,7 +8,7 @@ import (
 	"path"
 	"strings"
 
-	"golang.org/x/mobile/internal/importers/objc"
+	"github.com/baizon/mobile/internal/importers/objc"
 )
 
 type (

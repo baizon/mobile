@@ -16,8 +16,8 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/mobile/internal/importers/java"
-	"golang.org/x/mobile/internal/sdkpath"
+	"github.com/baizon/mobile/internal/importers/java"
+	"github.com/baizon/mobile/internal/sdkpath"
 )
 
 var gomobileBin string

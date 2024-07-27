@@ -15,7 +15,7 @@ import (
 	"testing"
 	"text/template"
 
-	"golang.org/x/mobile/internal/sdkpath"
+	"github.com/baizon/mobile/internal/sdkpath"
 )
 
 func TestRFC1034Label(t *testing.T) {

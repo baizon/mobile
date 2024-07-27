@@ -20,7 +20,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"golang.org/x/mobile/internal/binres"
+	"github.com/baizon/mobile/internal/binres"
 	"golang.org/x/tools/go/packages"
 )
 

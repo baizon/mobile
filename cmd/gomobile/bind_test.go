@@ -14,7 +14,7 @@ import (
 	"testing"
 	"text/template"
 
-	"golang.org/x/mobile/internal/sdkpath"
+	"github.com/baizon/mobile/internal/sdkpath"
 )
 
 func TestBindAndroid(t *testing.T) {
