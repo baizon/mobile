@@ -248,14 +248,13 @@ var (
 	buildIOSVersion     string      // -iosversion
 	buildAndroidAPI     int         // -androidapi
 	buildTags           stringsFlag // -tags
-	buildGoListFlags    string      // -glflags
+	glComputeNotAll     bool        // -glcomputenotall
 )
 
 func addBuildFlags(cmd *command) {
 	cmd.flag.StringVar(&buildO, "o", "", "")
 	cmd.flag.StringVar(&buildGcflags, "gcflags", "", "")
 	cmd.flag.StringVar(&buildLdflags, "ldflags", "", "")
-	cmd.flag.StringVar(&buildGoListFlags, "glflags", "", "")
 	cmd.flag.StringVar(&buildTarget, "target", "android", "")
 	cmd.flag.StringVar(&buildBundleID, "bundleid", "", "")
 	cmd.flag.StringVar(&buildIOSVersion, "iosversion", "13.0", "")
@@ -264,6 +263,7 @@ func addBuildFlags(cmd *command) {
 	cmd.flag.BoolVar(&buildA, "a", false, "")
 	cmd.flag.BoolVar(&buildI, "i", false, "")
 	cmd.flag.BoolVar(&buildTrimpath, "trimpath", false, "")
+	cmd.flag.BoolVar(&glComputeNotAll, "glcomputenotall", false, "")
 	cmd.flag.Var(&buildTags, "tags", "")
 }
 
